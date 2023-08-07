@@ -36,7 +36,7 @@ export default function TextEditor() {
    },[])
    
   useEffect(()=>{
-     const s=io("http://localhost:5000")
+     const s=io("https://collaborator-backend.up.railway.app")
      setSocket(s)
      
      return()=>{
